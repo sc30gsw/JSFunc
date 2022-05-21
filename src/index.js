@@ -3,12 +3,13 @@ import { createRoot } from "react-dom/client";
 
 import Map from "./Map";
 import Filter from "./Filter";
+import Splice from "./Splice";
 
 const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
 
 root.render(
   <StrictMode>
-    <Filter />
+    <Splice />
   </StrictMode>
 );
