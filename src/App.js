@@ -15,7 +15,6 @@ export default function App() {
   return (
     <div className="App">
       <h1>map</h1>
-      <span>test</span>
       {list.map((num) => (
         <div>{num * 2}</div>
       ))}
